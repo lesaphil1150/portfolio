@@ -1,0 +1,228 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  color: black;
+}
+
+.top {
+  /* border: 2px solid orange; */
+  height: 100vh;
+  width: auto;
+  background-image: url(./assets/Copy\ of\ Copy\ of\ Blue\ and\ Brick\ Red\ Geometric\ Modern\ Resume.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  z-index: 100;
+  background-color: transparent !important;
+  justify-content: flex-end !important;
+  /* position: fixed; */
+}
+
+.nav-link {
+  color: white !important;
+  text-shadow: 2px 2px 4px #000000 !important;
+}
+
+.nav-text {
+  justify-content: flex-end !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  font-size: 7rem;
+  padding-left: 0.5em;
+  font-family: "Permanent Marker", cursive;
+  padding-top: 3em;
+  /* border: 2px red solid; */
+}
+
+#headshot {
+  height: 275px;
+  width: 255px;
+  background-color: #bbb;
+  border-radius: 50%;
+  /* margin-left: 275px; */
+  display: inline-block;
+}
+
+.Resume-info {
+  /* border: 2px solid olive; */
+  display: flex;
+  flex-direction: column;
+  background-color: teal;
+  display: flex;
+  height: auto;
+  align-items: center;
+  padding-top: 10em;
+  padding-bottom: 12em;
+}
+
+.hello-pic {
+  /* border: 2px solid rgb(0, 4, 255); */
+  width: 450px;
+}
+
+.about-me-content {
+  /* border: 2px solid red; */
+  align-items: center;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  width: 50vw;
+  /* padding-left: 20em; */
+  /* border: 2px solid yellow; */
+}
+
+.first-last {
+  /* padding-top: 2em; */
+  font-size: 55px;
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 4px;
+  font-weight: 1000;
+  overflow: hidden;
+  border-right: 0.01em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.contact-info {
+  font-weight: bold;
+}
+
+.p-section {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.portfolio {
+  height: auto;
+  /* border: 2px solid pink; */
+  background-color: white;
+  padding-top: 3em;
+  padding-bottom: 10em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 5rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 5em;
+  padding-right: 5em; */
+  flex-wrap: wrap;
+  height: 100%;
+  /* border: 2px solid purple; */
+}
+
+.connect {
+  height: 100vh;
+  /* border: 2px solid purple; */
+  background-color: #d0826f;
+}
+
+.connect-section {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Permanent Marker", cursive;
+  padding-top: 125px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25rem;
+  /* border: 2px solid yellow; */
+}
+
+.card {
+  border: 1px solid transparent;
+  transition: border;
+  margin-bottom: 35px;
+}
+
+.card-body {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+.card:hover {
+  border: 1px solid black;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  /* font-family: "Advent Pro", sans-serif; */
+  border-radius: 10%;
+  padding-left: 0.5em;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.button:hover {
+  /* color: pink; */
+  box-shadow: 0 5px 15px white;
+}
+
+@media screen and (max-width: 1635px) {
+  .header {
+    font-size: 4rem;
+    padding-left: 0.5em;
+    font-family: "Permanent Marker", cursive;
+    padding-top: 4em;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .header {
+    font-size: 2rem;
+    padding-left: 0.5em;
+    font-family: "Permanent Marker", cursive;
+    padding-top: 11em;
+  }
+}
+
+.footer {
+  background-color: #d0826f;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
