@@ -11,7 +11,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +19,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,28 +59,53 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#top">Home</a>
               <a class="nav-link" href="#resume">About</a>
               <a class="nav-link" href="#portfolio">Portfolio</a>
-              <a class="nav-link" href="#">Resume</a>
+              <a
+                class="nav-link"
+                href="./assets/Leslie Phillips Resume 2021.pdf"
+                download="Leslie Phillips Resume"
+                >Resume</a
+              >
               <a class="nav-link" href="#connect">Contact</a>
             </div>
           </div>
-          <!-- </div> -->
         </nav>
 
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="container-fluid">
               <p class="header">Leslie Phillips</p>
-
-              <!-- <div class="headshot">
-                <img id="headshot" src="./assets/headshot2.JPG" />
-              </div> -->
+              <div class="info">
+                <img
+                  src="./assets/headshot.jpg"
+                  height="250px"
+                  class="headshot"
+                />
+                <p id="portfolio-top">Portfolio of a:</p>
+                <ul>
+                  <li id="about">
+                    <img src="./assets/web icon.png" height="25px" /> Web
+                    Development Student
+                  </li>
+                  <li id="about1">
+                    <img src="./assets/plant.png" height="30px" />Plant Lover
+                  </li>
+                  <li id="about2">
+                    <img src="./assets/cat.png" height="30px" /> Cat Lady
+                  </li>
+                  <li id="about3">
+                    <img src="./assets/sushi.png" height="30px" /> Sushi Fanatic
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
+    </div>
+    <div>
       <div class="row">
         <div class="Resume-info container-fluid" id="resume">
           <!-- hello pic -->
@@ -98,13 +129,14 @@
               <br />
               <p class="about-me">
                 I am a current student at Eleven Fifty Coding Academy, learning
-                now to code for the first time. I am employed at ADVISA, a
-                Carmel-based Leadership Consulting Firm. I handle our operations
-                and specialize in using Salesforce to help solve our business
-                challenges. I am learning the basics of coding in hopes to
-                augment my Salesforce experience and progression in the
-                Salesforce ecosystem. Outside of work, I enjoy planting flowers,
-                thrifting, and playing with my Siamese munchkin cat, Reba.
+                how to code for the first time. <br />
+                I am employed at ADVISA, a Carmel-based Leadership Consulting
+                Firm. I handle our operations and specialize in using Salesforce
+                to help solve our business challenges. I am learning the basics
+                of coding in hopes to augment my Salesforce experience and
+                progression in the Salesforce ecosystem. <br />Outside of work,
+                I enjoy planting flowers, yoga/barre/cycling, thrifting, and
+                playing with my Siamese munchkin cat, Reba.
               </p>
             </div>
           </div>
@@ -135,7 +167,7 @@
                 href="https://lesaphil1150.github.io/API-Project-1/"
                 target="_blank"
               >
-                <img src="./assets/api-1.png" class="card-img-top" alt="..."
+                <img src="./assets/api-1.png" class="card-img-top"
               /></a>
               <div class="card-body">
                 <p class="card-text">
@@ -146,7 +178,7 @@
             </div>
             <div class="card" style="width: 18rem">
               <a href="https://leslie---api-project-2.web.app" target="blank">
-                <img src="./assets/api-2.png" class="card-img-top" alt="..."
+                <img src="./assets/api-2.png" class="card-img-top"
               /></a>
               <div class="card-body">
                 <p class="card-text">
@@ -160,10 +192,7 @@
                 href="https://lesaphil1150.github.io/staticlayout_kast/"
                 target="_blank"
               >
-                <img
-                  src="./assets/Static-layout.png"
-                  class="card-img-top"
-                  alt="..."
+                <img src="./assets/Static-layout.png" class="card-img-top"
               /></a>
               <div class="card-body">
                 <p class="card-text">
